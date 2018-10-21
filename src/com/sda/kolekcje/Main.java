@@ -24,12 +24,29 @@ public class Main {
 
         CustomList<String> customList = new CustomLinkedList<>();
 
-        customList.add("jeden");
-        customList.add("dwa");
-        customList.add("trzy");
-        customList.add("cztery");
+        customList.add("1");
+        customList.add("2");
+        customList.add("3");
+        customList.add("4");
+        customList.add("5");
+        customList.add("6");
+        customList.add("7");
+        customList.add("8");
+
+        customList.addTail("1");
+        customList.addTail("2");
+        customList.addTail("3");
+        customList.addTail("4");
+        customList.addTail("5");
+        customList.addTail("6");
+        customList.addTail("7");
+        customList.addTail("8");
+
+       customList.printList();
+       customList.find(8);
+
 
 // printujac to wynnika z tego, ze
-        // trzeci obiekt rzutuje na drugi, drugi na pierwszy, pierwszy na nulla
+        // trzeci obiekt wskazuje na drugi, drugi na pierwszy, pierwszy na nulla
     }
 }
